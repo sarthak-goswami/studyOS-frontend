@@ -1,0 +1,214 @@
+ .settings-page {
+  width: 100%;
+  max-width: 1000px;
+}
+.settings-header {
+  margin-bottom: 34px;
+}
+.settings-eyebrow {
+  color: #7f8796;
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+}
+
+.settings-header h1 {
+  margin: 6px 0;
+  color: #f4f5f7;
+  font-size: 28px;
+  font-weight: 650;
+}
+
+.settings-header p {
+  margin: 0;
+  color: #9299a6;
+  font-size: 14px;
+}
+.settings-section {
+  margin-bottom: 32px;
+}
+.settings-section-header {
+  margin-bottom: 13px;
+}
+.settings-section-header h2 {
+  margin: 0;
+  color: #f4f5f7;
+  font-size: 17px;
+  font-weight: 650;
+}
+
+.settings-section-header p {
+  margin: 5px 0 0;
+  color: #7f8796;
+  font-size: 12px;
+}
+
+.settings-card {
+  overflow: hidden;
+  background: #171a21;
+  border: 1px solid #292e38;
+  border-radius: 12px;
+}
+
+.settings-row {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  min-height: 72px;
+  padding: 16px 20px;
+  box-sizing: border-box;
+  border-bottom: 1px solid #292e38;
+}
+
+.settings-row:last-child {
+  border-bottom: none;
+}
+
+
+/* ICON */
+
+.settings-icon {
+  width: 36px;
+  height: 36px;
+
+  flex-shrink: 0;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background: #20242d;
+
+  border-radius: 8px;
+
+  color: #a1a8b5;
+}
+
+
+/* TEXT */
+
+.settings-info {
+  flex: 1;
+
+  min-width: 0;
+}
+
+.settings-info strong {
+  display: block;
+
+  color: #f4f5f7;
+
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.settings-info span {
+  display: block;
+
+  margin-top: 4px;
+
+  color: #7f8796;
+
+  font-size: 12px;
+  line-height: 1.4;
+}
+
+.settings-input {
+  width: 160px;
+  height: 36px;
+  flex-shrink: 0;
+  box-sizing: border-box;
+  padding: 0 10px;
+  background: #101218;
+  border: 1px solid #343a46;
+  border-radius: 7px;
+  color: #f4f5f7;
+  font-family: inherit;
+  font-size: 12px;
+}
+
+.settings-input:focus {
+  outline: none;
+  border-color: #6d63d9;
+}
+
+select.settings-input {
+  cursor: pointer;
+}
+
+.settings-toggle {
+  width: 42px;
+  height: 24px;
+  flex-shrink: 0;
+  padding: 3px;
+  border: none;
+  border-radius: 20px;
+  background: #343944;
+  cursor: pointer;
+}
+
+.settings-toggle span {
+  display: block;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background: #9299a6;
+  transition: transform 0.2s ease;
+}
+
+.settings-toggle.active {
+  background: #6d63d9;
+}
+
+.settings-toggle.active span {
+  transform: translateX(18px);
+  background: #ffffff;
+}
+.settings-actions {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 24px;
+}
+
+.settings-save {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 16px;
+  border: none;
+  border-radius: 8px;
+  background: #e8e6ff;
+  color: #181722;
+  font-family: inherit;
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+}
+.settings-save:hover {
+  background: #ffffff;
+}
+
+
+/* RESPONSIVE */
+
+@media (max-width: 700px) {
+
+  .settings-row {
+    flex-wrap: wrap;
+  }
+
+  .settings-info {
+    flex: 1 1 calc(100% - 55px);
+  }
+
+  .settings-input {
+    width: 100%;
+
+    margin-left: 51px;
+  }
+
+  .settings-toggle {
+    margin-left: auto;
+  }
+
+}
