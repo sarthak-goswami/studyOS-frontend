@@ -46,7 +46,7 @@
 .settings-card {
   overflow: hidden;
   background: #171a21;
-  border: 1px solid #292e38;
+  /* border: 1px solid #292e38; */
   border-radius: 12px;
 }
 

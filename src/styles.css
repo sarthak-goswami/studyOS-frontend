@@ -2,12 +2,12 @@
 :root {
   font-family: "Intel", sans-serif;
   color: #eef0f7;
-  background: #0b0d12;
+  background: #000000;
   font-synthesis: none;
 }
 .app {
   min-height: 100vh;
-  background: #0b0d12;
+  background: #000000;
 }
 * {
   box-sizing: border-box;
@@ -75,7 +75,7 @@ button {
 .nav button.active,
 .nav button:hover,
 .sideBottom > button:hover {
-  background: #191c24;
+  background: #272727;
   color: #fff;
 }
 .sideBottom {
@@ -156,7 +156,7 @@ button {
 }
 .hero {
   background: #12151d;
-  border: 1px solid #272b35;
+  /* border: 1px solid #272b35; */
   border-radius: 12px;
   padding: 28px 30px;
   display: flex;
@@ -242,7 +242,7 @@ button {
 }
 .stat {
   background: #12151b;
-  border: 1px solid #252932;
+  /* border: 1px solid #252932; */
   border-radius: 12px;
   padding: 18px;
   display: grid;
@@ -303,7 +303,7 @@ button {
 .chart,
 .readiness {
   background: #12151b;
-  border: 1px solid #252932;
+  /* border: 1px solid #252932; */
   border-radius: 13px;
   padding: 16px;
 }
@@ -350,7 +350,7 @@ button {
   margin-top: 12px;
 }
 .focusList {
-  border: 1px solid #252932;
+  /* border: 1px solid #252932; */
   border-radius: 13px;
   overflow: hidden;
 }
@@ -407,7 +407,7 @@ button {
 .why,
 .callout {
   background: #171822;
-  border: 1px solid #343348;
+  /* border: 1px solid #343348; */
   border-radius: 13px;
   padding: 16px 18px;
   display: flex;
@@ -437,7 +437,7 @@ button {
 }
 .outline {
   background: transparent;
-  border: 1px solid #343743;
+  /* border: 1px solid #343743; */
   padding: 9px 12px;
   border-radius: 8px;
   font-size: 10px;
@@ -493,7 +493,7 @@ button {
 }
 .planBanner {
   background: #12151d;
-  border: 1px solid #272b35;
+  /* border: 1px solid #272b35; */
   border-radius: 16px;
   padding: 25px 28px;
   display: flex;
@@ -502,7 +502,7 @@ button {
 }
 .calendarBox {
   background: #1a1d25;
-  border: 1px solid #2b2f38;
+  /* border: 1px solid #2b2f38; */
   border-radius: 10px;
   padding: 12px 15px;
   display: grid;
@@ -558,7 +558,7 @@ button {
 }
 .task {
   background: #12151b;
-  border: 1px solid #252932;
+  /* border: 1px solid #252932; */
   border-radius: 12px;
   padding: 13px 15px;
   display: flex;
@@ -766,7 +766,7 @@ button {
 }
 .answers button:hover,
 .answers button.selected {
-  border-color: #8f7bff;
+  border-color: #e1dbff;
   background: #1d1a2d;
 }
 .answers span {
@@ -892,7 +892,7 @@ button {
     width: auto;
   }
 }
-/* ---- handcrafted UI polish ---- */
+
 
 html { scroll-behavior: smooth; }
 
@@ -948,8 +948,8 @@ button:active { transform: translateY(1px); }
 .bigTopic:hover,
 .task:hover {
   border-color: #303540;
-  background: #303030;
-  box-shadow: rgb(141, 141, 141) 0px 0px 3px 1px;
+  background: #212632;
+  box-shadow: rgb(41, 41, 41) 0px 0px 3px 1px;
   transform: translateY(-1px);
 }
 
@@ -999,7 +999,7 @@ button:active { transform: translateY(1px); }
   border-radius: 999px;
 }
 
-::-webkit-scrollbar-thumb:hover { background: #383d48; }
+::-webkit-scrollbar-thumb:hover { background: #1d222b; }
 
 @media (max-width: 900px) {
   .sidebar { width: 68px; }

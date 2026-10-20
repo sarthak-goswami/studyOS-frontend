@@ -45,7 +45,7 @@
 
   background: #20242d;
 
-  border: 1px solid #343a46;
+  /* border: 1px solid #343a46; */
 
   border-radius: 10px;
 
@@ -119,7 +119,7 @@
 
   background: #171a21;
 
-  border: 1px solid #292e38;
+  /* border: 1px solid #292e38; */
 
   border-radius: 14px;
 
@@ -184,8 +184,8 @@
 
   background: #101218;
 
-  border: 1px solid #343a46;
-
+  /* border: 1px solid #343a46; */
+  border: none;
   border-radius: 7px;
 
   color: #f4f5f7;
